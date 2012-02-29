@@ -2,7 +2,7 @@
 /* 
 Plugin Name: Universo Mobile App Plugin
 Description: This plugin has a Widget that displays Universo's (http://universo.mobi) App link in the sidebar, so your blog readers can access your Universo Mobile App via QRCode or Link. It also have  Mobile Recognition tool to redirect your reader to your Universo App URL.
-Version: 0.1
+Version: 1.0
 Author: Eduardo Russo
 Author URI: http://universo.mobi/
 Plugin URI: http://wordpress.org/extend/plugins/universo-widget-and-mobile-redirect
