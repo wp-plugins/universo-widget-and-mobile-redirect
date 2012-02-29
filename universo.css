@@ -1,0 +1,17 @@
+div.textwidget img#universo_app_icon{
+	display: inline;
+	float: left;
+	margin: 0 10px 0 0;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+}
+
+div.textwidget img#universo_app_qrcode{
+		display: inline;
+		margin-left: 25px;
+		-moz-border-radius: 8px;
+		border-radius: 8px;
+		-webkit-border-radius: 8px;
+	}
+}
