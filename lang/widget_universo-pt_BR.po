@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Universo Mobile App Plugin\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Universo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+msgid "Universo Mobile App Link"
+msgstr "Link do App Mobile do Universo"
+
+msgid "Widget title:"
+msgstr "Título do Widget:"
+
+msgid "Show your Universo App access with text, icon and QRCode"
+msgstr "Facilite o acesso a seu App do Universo com texto, ícone e QRCode"
+
+msgid "The title that appears before your widget"
+msgstr "O Título que aparece antes do Widget"
+
+msgid "Universo App URL:"
+msgstr "URL do App Universo:"
+
+msgid "example: http://universo.mobi/universo"
+msgstr "exemplo: http://universo.mobi/universo"
+
+msgid "Show App QRCode:"
+msgstr "Mostrar QRCode:"
+
+msgid "QRCode size:"
+msgstr "Tamanho do QRCode"
+
+msgid "The square size of your QRCode. Leave empty to use the default size."
+msgstr "Tamanho do quadrado do seu QRCode. Deixe em branco para usar o tamanho padrão."
+
+msgid "Show App Icon:"
+msgstr "Mostrar o Ícone do App:"
+
+msgid "The square size of your icon. Leave empty to use the real size."
+msgstr "Tamanho do quadrado do seu ícone. Deixe em branco para usar o tamanho real."
+
+msgid "Text:"
+msgstr "Texto:"
+
+msgid "Insert a nice text (html tags allowed) about your App"
+msgstr "Insira um texto (html é permitido) legal sobre seu App"
+
+msgid "Redirect readers using mobile devices to your Universo App"
+msgstr "Redireciona usuários usando dispositivos móveis para seu App do Universo"
+
+msgid "Redirect Mobile users:"
+msgstr "Redirecionar usuários móveis:"
+
