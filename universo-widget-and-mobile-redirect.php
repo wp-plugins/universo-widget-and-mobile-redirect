@@ -2,7 +2,7 @@
 /* 
 Plugin Name: Universo Mobile App Plugin
 Description: Displays Universo's (http://universo.mobi) App link in the sidebar and add a Mobile Recognition tool to redirect your reader using mobile devices to your Universo App URL.
-Version: 1.0
+Version: 1.0.1
 Author: Eduardo Russo
 Author URI: http://universo.mobi/
 Plugin URI: http://wordpress.org/extend/plugins/styled-facebook-like-box
@@ -36,13 +36,14 @@ function get_app_qrcode($app_url, $qrcode_size){
 }
 
 function universo_redirect() {
-	//Debug
 	include("Mobile_Detect.php");
 	$detect = new Mobile_Detect();
+	global $universo_options; 
 	$options = get_option('widget_universo');
 
-	if ($options['mobile_redirect'] && $detect->isMobile())
-		wp_redirect($options['target_url']);
+	if ($options['mobile_redirect'] && $detect->isMobile()){
+		wp_redirect($options['app_url']);
+	}
 }
 
 function widget_universo_init(){
