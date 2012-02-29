@@ -1,6 +1,6 @@
 ﻿=== Universo Widget and Mobile Redirect ===
 Contributors: Eduardo Russo
-Tags: universo, android, java, iphone, widget, mobile, redirect, devices, app
+Tags: universo, android, java, iphone, widget, mobile, redirect, devices, app, universo.mobi
 Requires at least: 2.5
 Tested up to: 3.3.1
 Stable tag: 1.0
@@ -9,14 +9,14 @@ Displays Universo's (http://universo.mobi) App link in the sidebar and add a Mob
 
 == Description ==
 Português:
-Se você criou seu App com o Universo em http://universo.mobi, este plugin permite colocar um Widget com seu link na barra lateral, assim, os leitores do seu blog podem acessa seu App do Universo pelo QRCode ou por um link.
+Se você criou seu App com o Universo em http://universo.mobi, este Plugin permite colocar um Widget com seu link na barra lateral, assim, os leitores do seu blog podem acessa seu App do Universo pelo QRCode ou por um link.
 
 Você pode escolher inserir o Ícone e o QRCode do seu App, além de poder adicionar um texto com formatação HTML.
 
 Além disso, o Widget tem um checkbox para escolher entre usar ou não um Reconhecedor de Celulares que redireciona os usuários usando dispositivos móveis para seu App do Universo! 
 
 English:
-If you created your Universo App at http://universo.mobi, this plugin allows you to insert  Widget with the App link in the sidebar, so your blog readers can access your Universo Mobile App via QRCode or Link.
+If you created your Universo App at http://universo.mobi, this Plugin allows you to insert  Widget with the App link in the sidebar, so your blog readers can access your Universo Mobile App via QRCode or Link.
 
 You can choose to insert your App Icon, QRCode and a customized text with HTML formating.
 
@@ -24,14 +24,28 @@ Besides all that, the Widget has a checkbox to select to use or not a Mobile Rec
 
 == Installation ==
 
+Português:
+1. Suba o Plugin universo-widget-and-mobile-redirect para a pasta wp-content/plugins/.
+
+2. Ative o Plugin na aba Plugins do Painel de Administração do WordPress.
+
+3. Vá para a página Widgets no Painel de Administração e arraste o Widget para a barra do seu blog. Insira o endereço do seu App do Universo (http://universo.mobi/universo, por exemplo) e altere as configurações de aparência do Widget.
+
+4. A opção "Redirecionar usuários móveis" faz com que usuários acessando seu blog através do celular sejam redirecionados para seu App do Universo.
+
+5. O arquivo "universo.css" pode ser facilmente alterado para que as imagens se comportem da forma que você quiser. Vá para a aba Plugins e escolha a opção "editar". Selecione o arquivo CSS.
+
+
+English:
 1. Upload the entire universo-widget-and-mobile-redirect to your wp-content/plugins/ directory.
 
-2. Activate the plugin through the 'Plugins' menu in WordPress.
+2. Activate the Plugin through the 'Plugins' menu in WordPress.
 
-3. Visit http://www.facebook.com/pages/create.php to create a new page in Facebook.
-   Then edit your page and obtain the FanPage URL from the adress bar.
+3. Go to the Widgets page in the Admin Pannel and drag the Widget to your blog bar. Insert your Universo App URL (http://universo.mobi/universo, for instance) and change the way you want your Widget to look like.
 
-4. Use this information to call the function inside your template or activate the widget.
+4. The option "Redirect mobile users" redirects people accessing your blog from mobile devices to your Universo App.
+
+5. The "universo.css" file can be changed to make the images fit your space. Just go to the Plugins tab and choose the "edit" option. Select the CSS File.
 
 == Screenshots ==
 
