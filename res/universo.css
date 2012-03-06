@@ -7,6 +7,12 @@ div.textwidget img#universo_app_icon{
 	-webkit-border-radius: 8px;
 }
 
+div.textwidget img#universo_phone_icons{
+	display: inline;
+	float: left;
+	margin: -10px 0 10px 25px;
+}
+
 div.textwidget img#universo_app_qrcode{
 	display: inline;
 	margin-left: 25px;

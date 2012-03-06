@@ -30,6 +30,12 @@ msgstr "URL do App Universo:"
 msgid "example: http://universo.mobi/universo"
 msgstr "exemplo: http://universo.mobi/universo"
 
+msgid "Show Phone Icons:"
+msgstr "Mostrar Ícones de Telefones:"
+
+msgid "Show Universo's compatible phone icons (iPhone, Android and Java)"
+msgstr "Mostrar ícones das plataformas compatíveis com o Universo (iPhone, Android e Java)"
+
 msgid "Show App QRCode:"
 msgstr "Mostrar QRCode:"
 
@@ -56,4 +62,28 @@ msgstr "Redireciona usuários usando dispositivos móveis para seu App do Univer
 
 msgid "Redirect Mobile users:"
 msgstr "Redirecionar usuários móveis:"
+
+msgid "Icon position:"
+msgstr "Posição do ícone"
+
+msgid "The position the App icon should appear (order) in the sidebar"
+msgstr "A posição (ordem) que o ícone do App deve ficar"
+
+msgid "Text position:"
+msgstr "Posição do texto"
+
+msgid "The position the text should appear (order) in the sidebar"
+msgstr "A posição (ordem) que o texto deve ficar"
+
+msgid "Phone Icons position:"
+msgstr "Posição dos ícones de telefones"
+
+msgid "The position the Phone Icons should appear (order) in the sidebar"
+msgstr "A posição (ordem) que os Ícones de Telefones devem ficar"
+
+msgid "QRCode position:"
+msgstr "Posição do QRCode"
+
+msgid "The position the QRCode should appear (order) in the sidebar"
+msgstr "A posição (ordem) que o QRCode do App deve ficar"
 

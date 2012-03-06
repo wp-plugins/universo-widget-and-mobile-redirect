@@ -3,7 +3,7 @@ Contributors: Eduardo Russo
 Tags: universo, android, java, iphone, widget, mobile, redirect, devices, app, universo.mobi
 Requires at least: 2.5
 Tested up to: 3.3.1
-Stable tag: 1.5
+Stable tag: 2.0
 
 Displays Universo's (http://universo.mobi) App link in the sidebar and add a Mobile Recognition tool to redirect your reader using mobile devices to your Universo App URL.
 
@@ -11,14 +11,14 @@ Displays Universo's (http://universo.mobi) App link in the sidebar and add a Mob
 Português:
 Se você criou seu App com o Universo em http://universo.mobi, este Plugin permite colocar um Widget com seu link na barra lateral, assim, os leitores do seu blog podem acessa seu App do Universo pelo QRCode ou por um link.
 
-Você pode escolher inserir o Ícone e o QRCode do seu App, além de poder adicionar um texto com formatação HTML.
+Você pode escolher inserir o Ícone e o QRCode do seu App, os ícones dos dispositivos compatíveis com seu App do Universo, além de poder adicionar um texto com formatação HTML.
 
 Além disso, o Widget tem um checkbox para escolher entre usar ou não um Reconhecedor de Celulares que redireciona os usuários usando dispositivos móveis para seu App do Universo! 
 
 English:
 If you created your Universo App at http://universo.mobi, this Plugin allows you to insert  Widget with the App link in the sidebar, so your blog readers can access your Universo Mobile App via QRCode or Link.
 
-You can choose to insert your App Icon, QRCode and a customized text with HTML formating.
+You can choose to insert your App Icon and QRCode, the icons of the mobile phones compatible with Universo and a customized text with HTML formating.
 
 Besides all that, the Widget has a checkbox to select to use or not a Mobile Recognition tool abble to redirect your readers using Mobile Devices to your Universo App!
 
@@ -66,3 +66,7 @@ English:
 
 = 1.5 =
 * Mobile redirection correction
+
+= 2.0 =
+* Universo compatible Phone Icons
+* Now, it's possible to change the fields order
