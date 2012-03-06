@@ -5,7 +5,7 @@ Description: Displays Universo's (http://universo.mobi) App link in the sidebar 
 Version: 2.0
 Author: Eduardo Russo
 Author URI: http://universo.mobi/
-Plugin URI: http://wordpress.org/extend/plugins/styled-facebook-like-box
+Plugin URI: http://wordpress.org/extend/plugins/universo-widget-and-mobile-redirect/
 License: GPL2
 */
 
