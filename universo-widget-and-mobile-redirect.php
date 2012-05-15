@@ -2,7 +2,7 @@
 /* 
 Plugin Name: Universo Mobile App Plugin
 Description: Displays Universo's (http://universo.mobi) App link in the sidebar and add a Mobile Recognition tool to redirect your reader using mobile devices to your Universo App URL.
-Version: 2.0
+Version: 2.2
 Author: Eduardo Russo
 Author URI: http://universo.mobi/
 Plugin URI: http://wordpress.org/extend/plugins/universo-widget-and-mobile-redirect/
@@ -27,15 +27,27 @@ $universo_options['widget_fields']['mobile_redirect'] = array('label'=>'Redirect
 //Show the App icon
 function get_app_icon($app_url, $icon_size){
 	ob_start();
-	$tags = get_meta_tags($app_url);
+		ini_set('user_agent', 'Universo Wordpress Widget/1.0 (+http://niverso.mobi)');
+		$tags = get_meta_tags($app_url);
 	ob_end_clean();
-	echo (!empty($tags)) ? "<img id='universo_app_icon' src='http://media.universo.mobi/image.php?url=$tags[image]&size=$icon_size' />" : "<p><b>ERROR: Universo App URL not found or size not defined</b></p>";
+	
+	if(!empty($tags)){
+		if(isset($icon_size))
+			echo "<img id='universo_app_icon' src='http://media.universo.mobi/image.php?url=$tags[image]&size=$icon_size" . "x" . "$icon_size' />";
+		else
+			echo "<img id='universo_app_icon' src='$tags[image]' />";
+		}
+	else
+		echo "<p><b>ERROR: Universo App URL not found or size not defined</b></p>";
 }
 
 //Show the App QRCode
 function get_app_qrcode($app_url, $qrcode_size){
-	// http://portal.universo.mobi/images/qr/http://universo.mobi/universo
-	echo "<img id='universo_app_qrcode' src='http://media.universo.mobi/image.php?url=http://portal.universo.mobi/images/qr/$app_url&size=$qrcode_size' />";
+	$app_name = split("/", $app_url);
+	if(isset($icon_size))
+		echo "<img id='universo_app_qrcode' src='http://media.universo.mobi/qr?app_name=$app_name[3]&feature=wpwidget' width='$icon_size' height='$icon_size' />";
+	else
+		echo "<img id='universo_app_qrcode' src='http://media.universo.mobi/qr?app_name=$app_name[3]&feature=wpwidget' />";
 }
 
 //Show the compatible phones icons (iPhone, Android and Java)

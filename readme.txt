@@ -2,8 +2,8 @@
 Contributors: Eduardo Russo
 Tags: universo, android, java, iphone, widget, mobile, redirect, devices, app, universo.mobi
 Requires at least: 2.5
-Tested up to: 3.3.1
-Stable tag: 2.0
+Tested up to: 3.3.2
+Stable tag: 2.2
 
 Displays Universo's (http://universo.mobi) App link in the sidebar and add a Mobile Recognition tool to redirect your reader using mobile devices to your Universo App URL.
 
@@ -70,3 +70,8 @@ English:
 = 2.0 =
 * Universo compatible Phone Icons
 * Now, it's possible to change the fields order
+
+= 2.2 = 
+* Using new Universo.mobi QRCode engine
+* Sending "feature" param to QRCode
+* Calling Universo.mobi using get_meta_tags with an user agent
